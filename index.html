@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leena Fashion - Beautiful Dresses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <nav class="navbar">
+        <div class="logo">Leena Fashion</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover Your Perfect Dress</h1>
+        <p>Beautiful fashion, elegant designs and styles made for you.</p>
+        <a href="#collection" class="btn">Shop Collection</a>
+    </div>
+</section>
+
+<section id="collection" class="products">
+    <h2>Our Collection</h2>
+    <p class="section-text">Explore some of our beautiful dresses.</p>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80" alt="Elegant Dress">
+            <div class="product-info">
+                <h3>Elegant Party Dress</h3>
+                <p>Beautiful dress for special occasions.</p>
+                <span>₹1,499</span>
+                <button onclick="orderProduct('Elegant Party Dress')">Order Now</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80" alt="Women's Dress">
+            <div class="product-info">
+                <h3>Classic Women's Dress</h3>
+                <p>Simple, stylish and comfortable.</p>
+                <span>₹1,299</span>
+                <button onclick="orderProduct('Classic Women Dress')">Order Now</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=600&q=80" alt="Fashion Dress">
+            <div class="product-info">
+                <h3>Modern Fashion Dress</h3>
+                <p>Perfect for your fashionable look.</p>
+                <span>₹1,799</span>
+                <button onclick="orderProduct('Modern Fashion Dress')">Order Now</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=600&q=80" alt="Traditional Dress">
+            <div class="product-info">
+                <h3>Traditional Dress</h3>
+                <p>Elegant traditional style for every occasion.</p>
+                <span>₹1,599</span>
+                <button onclick="orderProduct('Traditional Dress')">Order Now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="why-us">
+    <h2>Why Choose Leena Fashion?</h2>
+
+    <div class="features">
+        <div>
+            <h3>✨ Beautiful Designs</h3>
+            <p>Trendy and elegant designs for every occasion.</p>
+        </div>
+
+        <div>
+            <h3>💎 Quality Fashion</h3>
+            <p>We focus on style, comfort and quality.</p>
+        </div>
+
+        <div>
+            <h3>❤️ Customer Care</h3>
+            <p>Your satisfaction is our priority.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Leena Fashion. All Rights Reserved.</p>
+    <p>Owner: Leena Kumari</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+          </html>
