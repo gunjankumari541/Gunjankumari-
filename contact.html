@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Leena Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Leena Fashion</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you</p>
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-card">
+        <h2>Leena Fashion</h2>
+
+        <p><strong>Owner:</strong> Leena Kumari</p>
+
+        <p>
+            <strong>📞 Phone:</strong>
+            <a href="tel:9783225660">9783225660</a>
+        </p>
+
+        <p>
+            <strong>📍 Address:</strong><br>
+            Katiko Ka Mohalla,<br>
+            Naya Sher, Kishangarh
+        </p>
+
+        <a class="call-btn" href="tel:9783225660">
+            Call Us
+        </a>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+
+        <form onsubmit="sendMessage(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+
+            <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Leena Fashion. All Rights Reserved.</p>
+    <p>Owner: Leena Kumari</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
